@@ -23,8 +23,6 @@ bool includes(List* list, position* value);
 
 void push_back(List* list, position* value); 
 
-void push_start(List* list, position* value);
-
 void delete_start(List* list);
 
 #endif

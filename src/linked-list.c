@@ -57,14 +57,6 @@ void push_back(List* list, position* value) {
   list->last = node;
 }
 
-void push_start(List* list, position* value) {
-  if (handle_empty(list, value)) return;
-
-  Node* node = create_node(value);
-  node->next = list->first;
-  list->first = node;
-}
-
 void delete_start(List* list) {
   if (is_empty(list)) return;
 
