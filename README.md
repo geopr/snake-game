@@ -1,5 +1,20 @@
 # Snake game
 
+### Note
+
+tested only on:
+
+macos:
+```
+Ventura 13.0.1
+```
+
+clang:
+```
+Apple clang version 14.0.0
+Target: arm64-apple-darwin22.1.0
+```
+
 ### Description
 
 implementatoin of the snake game in C
